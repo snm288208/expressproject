@@ -66,6 +66,7 @@ router.post('/search',(req,res,next)=>{
         res.status(200).json({
             aritem:result
         })
+        
     })
 })
 
